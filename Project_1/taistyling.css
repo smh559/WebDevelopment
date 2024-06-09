@@ -1,0 +1,32 @@
+.maint{
+    display: absolute;
+}
+
+/*---table---*/
+.table1{
+    background-color: rgb(211, 205, 197); 
+    border: solid 3px blueviolet; 
+    width: 300px; 
+    margin: 50px auto;
+}
+
+.table1 tr td{
+    border-top: blueviolet solid 1px; 
+    text-align: center;
+}
+
+.taipeicustom{
+    width: 15%;
+}
+
+.imagezone{
+    width: 100%;
+}
+
+.textzone{
+    width: 60%; 
+}
+
+.tablecaption{
+    text-align: center;
+}

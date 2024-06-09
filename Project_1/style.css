@@ -1,0 +1,162 @@
+html{scroll-behavior: smooth;}
+
+img{
+    width: 100%;
+}
+.header{
+    background-color: rgb(141, 140, 140);
+    display: flex;
+}
+
+.headerlink{
+    width: 20%;
+    display: block;
+    background-color: rgb(141, 140, 140);
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: ease-in-out 250ms;
+}
+
+.taiwanflag{
+    width: 35%;
+    padding-left: 15px; 
+}   
+
+.headerlink:hover{
+    opacity: 0.6;
+    transform: translateX(-20px) scale(1.2);
+}
+
+.headertitle{
+    width: 79%;
+    color: rgb(11, 11, 160);
+    text-align: center;
+}
+/*==========================    SITELINKS=====================*/
+.sitelinks{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.navlink{
+    display: inline-block;
+    text-align: center;
+    padding: 1em 2em;
+    width: 33.3%;
+    color: whitesmoke;
+}
+
+.navlink:hover{
+    background-color: whitesmoke;
+    border: dashed 2px gray;
+    border-radius: 12px;
+    color:blueviolet;
+}
+
+/*=========== MAIN BODY==========*/
+.mainbody{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*===========FOOTER==============*/
+.contact{
+    background-color: rgb(18, 18, 107);
+    color:whitesmoke;
+    display: flex;
+    padding: 30px;
+}
+.contactcolumn{
+    width: 33.3%;
+}
+.policieslink{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+}
+.followicon{
+    width:50px;
+    display: inline-block;
+    padding-right: 1em;
+    opacity: 0.5;
+}
+
+.followicon:hover{
+        opacity: 1;
+}
+
+
+/* CARD */
+.cardcontainer{
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 15px;
+}
+.card{
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px gray;
+    transition: ease-in-out 200ms;
+    overflow: hidden;
+}
+.card:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.cardlink{
+    color:crimson;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 12px;
+    background-color: black;
+    display: inline-block;
+    border-radius:10px;
+    transition: ease-in-out 200ms;
+    display: none;
+}
+.cardinfo{
+    padding: 12px;
+}
+.cardlink:hover{
+    background-color: aliceblue;
+    color:darkblue ; 
+}
+.card:hover .cardlink{
+    display:inline;
+}
+.portraitcard{
+    position: relative;
+}
+.portraitinfo{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+}
+
+/* Customize */
+.customize{
+    color: white;
+}
+
+.generaltitle{
+    position:absolute;
+    z-index: 2;
+    
+    top: 30%;
+    right: 30%;
+    left: 30%;
+    text-align: center;
+    padding: 5px;
+    font-size: 100px;
+}
