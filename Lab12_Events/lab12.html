@@ -62,6 +62,37 @@
 
 <a href="#"><div class="gotop"><span>&#11161;</span></div></a>
 
+<!-- Thursday, June 20-->
+    <h2>Form events</h2>
+    <form id="myform">
+        <!--username-->
+        <div class="controlblock">
+        <label for="username">Enter a username</label>
+        <input type="text" id="username" placeholder="Type username..."required>
+        </div>
+
+    <!-- password-->
+     <div class="controlblock">
+         <label for="passwordfield">Password</label>
+        <input type="password" id="passwordfield" placeholder="Enter a password..." required>
+            <p class="passwordmsg">Must be 8+ characters</p>
+            <div class="passworderror"></div>
+            
+     </div>
+
+        <div class="controlblock">
+            <label for="comments">Feedback and Comments</label>
+            <textarea name="textcomment" id="comments" rows="12" cols="77" placeholder="No more than 200 characters" maxlength="2000"></textarea>
+            <div class ="commenterror"></div>
+        </div>
+        <button type="submit"class="submitbtn">Submit</button>
+    </form>
+<!--Display message after form is submitted-->
+    <div class="greeting">
+        <p>Welcome to form events <span></span></p>
+    </div>
+
+
         <script src="script.js"></script>
 </body>
 </html>
