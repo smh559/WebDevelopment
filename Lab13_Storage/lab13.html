@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="style.css">
+    <title>temporary storage</title>
+</head>
+<body>
+    <h1>Temporary Storage</h1>
+    <form class="myform" >
+        <fieldset>
+            <legend>Survey</legend>
+
+            <div class="controlblock">
+                <label for="firstname">First name:</label>
+                <input type="text" name="username" id="firstname">
+            </div>
+
+            <div class="controlblock">
+                <p>Please select your Favorite Web language: </p>
+                <label for="html">HTML</label>
+                <input type="radio" name="fav_language" id="html" value="HyperText Markup Language, HTML">
+                <label for="css">CSS</label>
+                <input type="radio" name="fav_language" id="css" value="Cascading Style Sheet, CSS">
+                <label for="js">JavaScript</label>
+                <input type="radio" name="fav_language" id="js" value="JavaScript, JS">
+            </div>
+
+            <div class="controlblock">
+                <input type="submit" value="Submit Survey">
+            </div>
+
+        </fieldset>
+    </form>
+
+    <div class="displayresult"></div>
+
+
+    <script src="storage.js"></script>
+</body>
+</html>
