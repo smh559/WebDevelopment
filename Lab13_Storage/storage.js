@@ -24,7 +24,7 @@ sessionStorage.setItem('product123', "Product Name")
 // collect the elements
 const formitem1 = document.querySelector(".formitem1")
 const itemname = document.querySelector(".itemname")
-const itemdescription = document.querySelector(".itemdescription")
+const itemdescription = document.querySelector(".itemdescription").textContent
 const saleprice = document.querySelector(".saleprice").textContent
 
 formitem1.addEventListener("submit", function(){

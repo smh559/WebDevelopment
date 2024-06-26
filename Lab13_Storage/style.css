@@ -45,24 +45,30 @@ img{width: 100%;}
 
 /*  SHOPPING CART */
 .bagcontainer{
-    width: 90%;
+    width: 1000px;
     margin: auto;
-    border: solid 1px black;
+    border: solid 1px red 1px;
     display: flex;
     flex-wrap: nowrap;
 }
 .itemimg{
     width: 30%;
-}
-.itemdescription{
-    width: 30%;
+    padding: 12px;
+    border: solid green 1px;
 }
 .itemprice{
     width: 15%;
+    border: solid green 1px;
+}
+.itemdescription{
+    width: 30%;
+    border: solid green 1px;
 }
 .itemquantity{
     width: 10%;
+    border: solid green 1px;
 }
 .totalprice_item{
     width: 15%;
+    border: solid green 1px;
 }
