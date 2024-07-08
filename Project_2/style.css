@@ -1,0 +1,243 @@
+html{scroll-behavior: smooth;}
+.header{
+    display: flex;
+}
+.headerlink{
+    width: 30%;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: ease-in-out 200ms;
+    padding-top: 5px;
+}
+.headerlink:hover{
+    opacity: 0.6;
+    transform: translateX(-20px) scale(1.2)
+}
+.headertitle{
+    width: 15%;
+    color:black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.headercontainer{
+    display: flex;
+    width: 25%;
+}
+
+.sitelinks{
+    background-color: (34, 34, 194);
+    display: flex;
+    justify-content: center;
+}
+.navlink{
+    display: block;
+    background-color: yellow;
+    text-align: center;
+    padding: 1em 2em;
+    width: 33.3%;
+    color:bisque;
+    position: flex;
+}
+.nav_div{
+    background-color: darkgray;
+    width: 100%;
+    font-size: 1.5em;
+    padding: 30px;
+}
+.nav_div a {
+    display:inline-block;
+    color: white;
+    background-color: darkgray;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    justify-content: center;
+}
+.nav_div a:hover {
+    background-color: blue;
+}
+.body {
+    width: 100%;
+}
+
+.twobaby{
+    width: 100%;
+    text-align: center;
+    height: auto;
+}img{width: 100%;}
+.item1{
+    width: 300px;
+    height: 500px;
+    box-shadow: 1px 1px 3px gray;
+    padding: 12px;
+    margin: 20px;
+}
+.item1 img{
+    height: 50%;
+    width: auto;
+    display: block;
+    margin:auto;
+}
+.itemname, .itemname2, .itemname3, .itemname4, .itemname5, .itemname6, .itemname7, .itemname8, .itemname9{
+    font-weight: bolder;
+    color:rgb(22,22,22);
+    font-size: 1.3em;
+}
+.itemdescription, .itemdescription2, .itemdescription3, .itemdescription4, .itemdescription5, .itemdescription6, .itemdescription7, .itemdescription8, .itemdescription9{
+    color: darkslategray;
+    margin-top: -20px;
+}
+.item2{
+    width: 400px;
+    height: 500px;
+    box-shadow: 1px 1px 3px gray;
+    padding: 12px;
+    margin: 20px;
+}
+.item2 img{
+    height: 50%;
+    width: auto;
+    display: block;
+    margin:auto;
+}
+.itemname2{
+    font-weight: bolder;
+    color:rgb(22,22,22);
+    font-size: 1.3em;
+}
+.item2description{
+    color: darkslategray;
+    margin-top: -20px;
+}
+.item3{
+    width: 400px;
+    height: 500px;
+    box-shadow: 1px 1px 3px gray;
+    padding: 12px;
+    margin: 20px;
+}
+.item3 img{
+    height: 50%;
+    width: auto;
+    display: block;
+    margin:auto;
+}
+.itemname{
+    font-weight: bolder;
+    color:rgb(22,22,22);
+    font-size: 1.3em;
+}
+.itemdescription{
+    color: darkslategray;
+    margin-top: -20px;
+}
+.item2{
+    width: 400px;
+    height: 500px;
+    box-shadow: 1px 1px 3px gray;
+    padding: 12px;
+    margin: 20px;
+}
+.item2 img{
+    height: 50%;
+    width: auto;
+    display: block;
+    margin:auto;
+}
+.itemname2{
+    font-weight: bolder;
+    color:rgb(22,22,22);
+    font-size: 1.3em;
+}
+.item2description{
+    color: darkslategray;
+    margin-top: -20px;
+}
+
+.cardcontainer{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.item1, .item2, .item3{
+    overflow: hidden;
+}
+
+/* items to cart */
+.saleprice, .saleprice2, .saleprice3, .saleprice4, .saleprice5, .saleprice6, .saleprice7, .saleprice8, .saleprice9{
+    color: red; 
+    font-size: 1.3em;
+}
+
+.item1btn, .item2btn, .item3btn, .item4btn, .itemm5btn, .item6tn, .item7btn, .item8btn, .item9btn{
+    display: block;
+    background-color: darkslategray;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+}
+
+/*  SHOPPING CART */
+.bagcontainer{
+    width: 1000px;
+    height: 3000px;
+    margin: auto;
+    border: solid 1px red 1px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.itemimgc{
+    width: 30%;
+    padding: 12px;
+    border: solid green 1px;
+}
+.itemprice{
+    width: 15%;
+    border: solid green 1px;
+}
+.itemdescriptionc{
+    width: 30%;
+    border: solid green 1px;
+}
+.itemquantity{
+    width: 10%;
+    border: solid green 1px;
+}
+.totalprice_item{
+    width: 15%;
+    border: solid green 1px;
+}
+
+/*===========FOOTER==============*/
+.contact{
+    background-color: rgb(18, 18, 107);
+    color:whitesmoke;
+    display: flex;
+    padding: 30px;
+}
+.contactcolumn{
+    width: 33%
+}
+.policieslink{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+}
+.followicon{
+    width:50px;
+    display: inline-block;
+    padding-right: 1em;
+    opacity: 0.5;
+}
+
+.followicon:hover{
+        opacity: 1;
+}
